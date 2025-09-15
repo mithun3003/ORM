@@ -4,6 +4,10 @@
 ## AIM
 To develop a Django application to store and retrieve data from Car Inventory Database using Object Relational Mapping(ORM).
 
+## ENTITY RELATIONSHIP DIAGRAM
+
+
+![alt text](<Screenshot 2025-09-15 104100.png>)
 
 ## DESIGN STEPS
 
@@ -31,6 +35,8 @@ class CarAdmin(admin.ModelAdmin):
 
 admin.site.register(Car, CarAdmin)
 
+```
+```
 #models.py
 
 from django.db import models
